@@ -5,7 +5,7 @@ import datetime
 
 currentDT = datetime.datetime.now()
 FORMAT = '%(asctime)s, %(message)s'
-log_dir = r""
+log_dir = r"home/vinh/Desktop"
 keylogger_date = str(currentDT.year) + "-" + str(currentDT.month) + "-" + str(currentDT.day)
 logging.basicConfig(filename = (log_dir + keylogger_date+"_keyLog.txt"), level=logging.DEBUG, format=FORMAT)
 
